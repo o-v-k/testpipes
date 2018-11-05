@@ -2,7 +2,7 @@
   "name": "Pipelines-Tests",
   "private": true,
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --timeout=10000 --reporter mocha-multi-reporters --require ts-node/register"
+    "test": "node node_modules/mocha/bin/mocha --timeout=10000 --reporter mocha-multi-reporters --require ts-node/register tests/**/*.ts"
   },
   "devDependencies": {
     "@types/chai": "^4.1.2",
